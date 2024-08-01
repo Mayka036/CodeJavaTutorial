@@ -1,7 +1,8 @@
-public class testfor {
+public class TestFor {
     public static void main(String[] args) {
-        int number1 = 2;
-        
-
+        int number = 2;
+        for (int i = 1; i <= 12; i++) {
+            System.out.println(number + " x " + i + " = " + (number * i));
+        }
     }
 }
